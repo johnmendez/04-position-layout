@@ -1,0 +1,23 @@
+body {
+  /* All backgrounds to go edge to edge */
+  margin: 0;
+  font-family: sans-serif;
+  color: #777;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.center-img {
+
+}
