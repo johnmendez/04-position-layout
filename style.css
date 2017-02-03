@@ -9,8 +9,8 @@ html {
 body {
   /* All backgrounds to go edge to edge */
   margin: 0;
-  font-family: sans-serif;
-  color: #777;
+  background: black;
+  color: white;
 }
 
 ul {
@@ -26,6 +26,44 @@ img {
   max-width: 100%;
 }
 
-.center-img {
+.contrainer {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.grid {
+  overflow: auto;
+}
+
+.grid-left {
+  float: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.chara-text {
+  color: white;
+}
+
+.chara-hp {
+  width: calc(100% / 4 - 2rem - 2rem);
+  min-width: 8rem;
+  margin-right: 2rem;
+}
+
+.chara-hp-bar {
+  height: 2rem;
+  width: 1rem;
+  background: white;
+  margin-right: .5rem;
+  border-radius: 25%;
+  float: left;
+}
+
+.grid-center {
+
+}
+
+.grid-right {
 
 }
