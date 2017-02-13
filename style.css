@@ -27,43 +27,117 @@ img {
 }
 
 .contrainer {
-  max-width: 65rem;
-  margin: 0 auto;
-}
-
-.grid {
   overflow: auto;
 }
 
 .grid-left {
-  float: 0;
-  bottom: 0;
-  left: 0;
+  position: absolute;
+  bottom: 5rem;
+  left: 5rem;
+  overflow: auto;
+  padding-right: 10rem;
 }
 
-.chara-text {
-  color: white;
+.grid-left > * {
+  float: left;
 }
 
-.chara-hp {
-  width: calc(100% / 4 - 2rem - 2rem);
-  min-width: 8rem;
-  margin-right: 2rem;
+.grid-right {
+  position: absolute;
+  bottom: 5rem;
+  right: 5rem;
+  overflow: auto;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
 }
 
-.chara-hp-bar {
-  height: 2rem;
-  width: 1rem;
-  background: white;
-  margin-right: .5rem;
-  border-radius: 25%;
+.grid-right > * {
   float: left;
 }
 
 .grid-center {
-
+  position: fixed;
+  top: 50%;
+  right: 50%;
+  transform: translate(40%, -20%);
 }
 
-.grid-right {
+.chara-text {
+  margin-left: 2rem;
+  font-size: 2rem;
+}
 
+.max-hp {
+  font-size: 1rem;
+}
+
+.chara-hp {
+  margin-left: 8rem;
+  margin-top: 3rem;
+  position: absolute;
+}
+
+.chara-hp-bar {
+  display: inline-block;
+  height: 2rem;
+  width: 4rem;
+  background: white;
+  border-radius: 10%;
+}
+
+.skull {
+  height: 5rem;
+  width: 5rem;
+  margin: 0 auto;
+}
+
+.killed {
+  padding-top: 5rem;
+}
+
+.enemy {
+  text-align: center;
+}
+
+.enemy-name {
+  color: red;
+}
+
+.chara-avatar {
+  display: inline;
+}
+
+.ammo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 2rem;
+}
+
+.ammo-max {
+  font-size: 1rem;
+}
+
+.special-icon {
+  padding-right: 2rem;
+}
+
+.weapon {
+  padding-left: 2rem;
+}
+
+.key {
+  position: absolute;
+  bottom: 0;
+  background: white;
+  color: black;
+  padding: 0.1rem;
+}
+
+.key-a {
+  left: 1.5rem;
+}
+
+.key-b {
+  left: 9.5rem;
 }
